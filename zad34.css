@@ -1,0 +1,9 @@
+ h3 { 
+ font-size: 19px;
+ width: 300pt;
+ height: 3cm;
+ padding : 20px;
+ margin : 40px;
+ border : 10px groove #808080;
+ background : #8B4513;
+ }
