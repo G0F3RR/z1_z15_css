@@ -7,21 +7,13 @@
     <script>
         function calculateDistance() {
             do {
-
                 const x1 = parseFloat(prompt("Współrzędna X1: "));
                 const y1 = parseFloat(prompt("Współrzędna Y1:"));
-
                 const x2 = parseFloat(prompt("Współrzędna X2:"));
                 const y2 = parseFloat(prompt("Współrzędna Y2:"));
-
-
                 const distance = Math.sqrt(Math.pow(x2 - x1, 2) + Math.pow(y2 - y1, 2));
                 const roundedDistance = Math.round(distance);
-
-
                 alert(`Odległość między punktami: ${roundedDistance}`);
-
-
             } while (confirm("Czy powtórzyć program?"));
         }
     </script>
